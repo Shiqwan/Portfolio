@@ -1,5 +1,5 @@
 import "./MainHead.css";
 
-export const MainHead = () => {
-  return <h1 className="MainHead">Front End Developer</h1>;
+export const MainHead = ({ className, text }) => {
+  return <h1 className={`${className}`}>{text}</h1>;
 };

@@ -12,13 +12,15 @@ export const Top = () => {
           <ProfilePic />
         </div>
         <div className="topper">
-          <SecondHead />
-          <MainHead />
+          <SecondHead
+            className={"intro-pre-headline"}
+            text={"Welcome to the portfolio of Ulrika Gålnander"}
+          />
+          <MainHead className={"intro-headline"} text={"Front End Developer"} />
         </div>
         <div className="hello-wrapper">
           <p>Ulrika is a developer ready for new things and hungry to learn.</p>
           <p>
-            {" "}
             With a background in communications, administration and idk being a
             woman she is taking a new step in her career.
           </p>

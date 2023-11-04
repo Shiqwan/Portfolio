@@ -1,7 +1,5 @@
 import "./SecondHead.css";
 
-export const SecondHead = () => {
-  return (
-    <h2 className="SecondHead">This is the portfolio of Ullis Gålnander</h2>
-  );
+export const SecondHead = ({ className, text }) => {
+  return <h2 className={`${className}`}>{text}</h2>;
 };

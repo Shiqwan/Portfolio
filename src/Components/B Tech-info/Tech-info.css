@@ -1,0 +1,18 @@
+.tech-h2 {
+  font-family: "Montserrat", serif;
+  color: rgb(227, 255, 227);
+}
+
+.tech-wrapper {
+  background-color: rgb(70, 127, 70);
+  font-family: "Montserrat", serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stack-wrapper {
+  color: rgb(227, 255, 227);
+  padding: 25px 35px;
+  text-align: center;
+}

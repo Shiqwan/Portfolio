@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: rgb(70, 127, 70);
   font-size: x-large;
   font-weight: 900;
   font-family: "Montserrat", serif;
@@ -12,7 +12,7 @@ h2 {
 }
 
 .introduction-wrapper {
-  padding: 66px;
+  padding: 40px;
 }
 
 .introduction-container {
