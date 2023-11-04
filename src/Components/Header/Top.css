@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: "Montserrat", serif;
+}
+
+h2 {
+  color: black;
+  font-size: medium;
+  font-family: "Montserrat", serif;
+}
+
+.introduction-wrapper {
+  padding: 66px;
+}
+
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.topper {
+  background-color: white;
+  border-radius: dotted;
+  display: flex;
+  flex-direction: column;
+}
+
+.hello-wrapper {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
