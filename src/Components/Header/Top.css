@@ -2,13 +2,13 @@ h1 {
   color: rgb(70, 127, 70);
   font-size: x-large;
   font-weight: 900;
-  font-family: "Montserrat", serif;
+  /* font-family: "Montserrat", serif; */
 }
 
 h2 {
   color: black;
   font-size: medium;
-  font-family: "Montserrat", serif;
+  /* font-family: "Montserrat", serif; */
 }
 
 .introduction-wrapper {

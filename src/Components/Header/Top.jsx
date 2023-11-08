@@ -25,8 +25,8 @@ export const Top = () => {
             woman she is taking a new step in her career.
           </p>
           <p>
-            The last months have proven her to be resilient, a baby and giving
-            her new reflections on what the heck she is about.
+            The last few months have proven her to be resilient, a baby and
+            giving her a lot of revelations on what the heck she is about.
           </p>
         </div>
       </div>
