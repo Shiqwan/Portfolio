@@ -2,29 +2,32 @@
   "projects": [
     {
       "name": "Happy Thoughts",
-      "image": "https://www.rawpixel.com/image/7653847/image-wallpaper-flower-vintage#eyJrZXlzIjoiIiwic29ydGVkS2V5cyI6IiR3aWxsaWFtbW9ycmkifQ==",
-      "description": "Text here about the project summary",
+      "image": "https://images.unsplash.com/photo-1509909756405-be0199881695?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://exquisite-mandazi-f8cd5e.netlify.app/",
       "github": "https://github.com/Shiqwan/project-happy-thoughts-vite"
     },
     {
       "name": "Music Releases",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "image": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "link",
       "github": "link"
     },
     {
       "name": "Christmas Quiz",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "link",
       "github": "link"
     },
     {
       "name": "Weather App",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "link",
       "github": "link"
@@ -32,6 +35,7 @@
     {
       "name": "Guess Who?",
       "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "link",
       "github": "link"
@@ -39,6 +43,7 @@
     {
       "name": "Simple Chatbot",
       "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "link",
       "github": "link"

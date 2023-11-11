@@ -1,6 +1,12 @@
 .project-container {
-  background-color: rgb(227, 255, 227);
+  background: rgb(227, 255, 227);
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: rgb(70, 127, 70);
+}
+
+.projects-main-head {
+  font-size: xx-large;
+  color: rgb(70, 127, 70);
 }
