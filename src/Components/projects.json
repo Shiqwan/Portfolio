@@ -34,7 +34,7 @@
     },
     {
       "name": "Guess Who?",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "https://images.pexels.com/photos/5941331/pexels-photo-5941331.jpeg",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "link",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Simple Chatbot",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "https://images.pexels.com/photos/4350099/pexels-photo-4350099.jpeg",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "link",
