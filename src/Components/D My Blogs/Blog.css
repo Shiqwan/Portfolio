@@ -1,0 +1,24 @@
+.blog-container {
+  background-color: var(--thirdly-color);
+  border-top: 3px solid var(--firstly-color);
+  padding: 128px 25px;
+}
+.blog-main-heading {
+  margin-bottom: 100px;
+  font-size: 56px;
+}
+
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+  .blog-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
