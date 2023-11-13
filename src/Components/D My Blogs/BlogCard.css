@@ -4,18 +4,23 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
+  color: rgb(227, 255, 227);
 }
 
 .article-image {
-  height: 50%;
-  width: 50%;
+  height: 75%;
+  width: 75%;
+}
+
+.img-wrapper {
+    margin-bottom: 2px;
 }
 
 .timeArticle {
   background-color: #000;
-  color: #fff;
+  color: rgb(227, 255, 227);
   display: inline;
-  padding: 0.125rem 0.25rem;
+  padding: 0.25rem 0.25rem;
   font-family: Montserrat;
   font-weight: 600;
   text-align: left;
@@ -25,9 +30,11 @@
 }
 .article-heading {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 900;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: rgb(227, 255, 227);
+  font
 }
 
 .article-paragraph {
@@ -38,6 +45,8 @@
 }
 
 .button-article {
+  background-color: rgb(70, 127, 70);
+  color: rgb(227, 255, 227);
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 50px;

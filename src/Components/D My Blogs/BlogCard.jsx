@@ -25,7 +25,7 @@ export const BlogCard = (props) => {
           />
           <Button
             label="Read article"
-            imageSrc="src/assets/LiveDemo.svg"
+            imageSrc="src/assets/LiveDemoHover.svg"
             path={linkArticle}
             className="button-article"
             imgClass="img-button"
