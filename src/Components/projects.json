@@ -13,40 +13,40 @@
       "image": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://splendid-paprenjak-6e94ea.netlify.app",
+      "github": "https://github.com/Shiqwan/project-music-releases-vite"
     },
     {
       "name": "Christmas Quiz",
       "image": "https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://stunning-faloodeh-3e176a.netlify.app",
+      "github": "https://github.com/Shiqwan/project-survey-vite"
     },
     {
       "name": "Weather App",
       "image": "https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://wondrous-croissant-923e38.netlify.app",
+      "github": "https://github.com/Shiqwan/project-weather-app"
     },
     {
       "name": "Guess Who?",
       "image": "https://images.pexels.com/photos/5941331/pexels-photo-5941331.jpeg",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://fluffy-sunshine-7b9311.netlify.app",
+      "github": "https://github.com/Shiqwan/project-guess-who"
     },
     {
       "name": "Simple Chatbot",
       "image": "https://images.pexels.com/photos/4350099/pexels-photo-4350099.jpeg",
       "description": "Summary about the project",
       "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://fancy-meerkat-5559d0.netlify.app",
+      "github": "https://github.com/Shiqwan/project-chatbot"
     }
   ]
 }

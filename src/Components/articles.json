@@ -4,28 +4,28 @@
       "name": "Augacity",
       "image": "https://images.pexels.com/photos/5498351/pexels-photo-5498351.jpeg",
       "time": "August 2023",
-      "link": "https://example.com/react-hooks-article",
+      "link": "https://example.com",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum eos repudiandae sint cumque ducimus? Numquam expedita esse inventore laboriosam eum! Quasi ad rem optio in, tempore a nemo cupiditate."
     },
     {
       "name": "Septremble",
       "image": "https://images.pexels.com/photos/5491059/pexels-photo-5491059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "time": "September 2023",
-      "link": "https://example.com/advanced-css-article",
+      "link": "https://example.com",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum eos repudiandae sint cumque ducimus? Numquam expedita esse inventore laboriosam eum! Quasi ad rem optio in, tempore a nemo cupiditate."
     },
     {
       "name": "OKtober",
       "image": "https://images.pexels.com/photos/5408810/pexels-photo-5408810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "time": "October 2023",
-      "link": "https://example.com/nodejs-article",
+      "link": "https://example.com",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum eos repudiandae sint cumque ducimus? Numquam expedita esse inventore laboriosam eum! Quasi ad rem optio in, tempore a nemo cupiditate."
     },
     {
       "name": "NOvember",
       "image": "https://images.pexels.com/photos/10550495/pexels-photo-10550495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "time": "November 2023",
-      "link": "https://example.com/accessibility-article",
+      "link": "https://example.com",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum eos repudiandae sint cumque ducimus? Numquam expedita esse inventore laboriosam eum! Quasi ad rem optio in, tempore a nemo cupiditate.."
     }
   ]
