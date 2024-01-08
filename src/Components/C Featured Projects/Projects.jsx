@@ -4,7 +4,6 @@ import projectData from "../projects.json";
 import "./Projects.css";
 
 let projectsArray = projectData.projects;
-console.log(projectsArray);
 
 export const Projects = () => {
   return (

@@ -2,18 +2,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 5px;
+  margin-bottom: 5px;
   color: rgb(227, 255, 227);
 }
 
 .article-image {
-  height: 75%;
-  width: 75%;
+  display: block;
+  width: 90%;
+  height: auto;
 }
 
 .img-wrapper {
-    margin-bottom: 2px;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .timeArticle {
@@ -26,7 +30,7 @@
   text-align: left;
 }
 .article-description {
-  margin-top: rem;
+  margin-top: 1rem;
 }
 .article-heading {
   font-size: 1.5rem;
@@ -46,7 +50,7 @@
 
 .button-article {
   background-color: rgb(70, 127, 70);
-  color: rgb(227, 255, 227);
+  color: black;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 50px;
@@ -55,9 +59,34 @@
   cursor: pointer;
 }
 
+.button-article:hover {
+  background-color: #FFD338;
+  color: #000;
+}
+
 @media (min-width: 667px) and (max-width: 1024px) {
+
   .articleCard-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 2rem;
+
+  }
+
+  .article-heading {
+    font-size: 3.5rem;
+    color: black;
+  }
+
+  .article-heading {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .article-paragraph {
+    text-align: left;
+    font-size: 1rem;
   }
 }
 

@@ -24,3 +24,22 @@ button {
   color: black;
   background-color: white;
 }
+
+button:hover {
+  color: white;
+}
+
+.netlify-button:hover {
+  background-color: blue;
+}
+
+.img-button:hover.netlify-button {
+}
+
+.gitHub-button:hover {
+  background-color: #eb5577;
+}
+
+.img-button-github:hover.gitHub-button {
+  /* Hover styles for the image of View Code button */
+}

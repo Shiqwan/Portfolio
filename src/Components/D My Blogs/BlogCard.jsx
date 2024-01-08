@@ -2,6 +2,7 @@ import { Description } from "../C Featured Projects/Repeat Components/Descriptio
 import { SecondHead } from "../Header/SecondHead.jsx";
 import { Button } from "../C Featured Projects/Repeat Components/Button.jsx";
 import "../D My Blogs/BlogCard.css";
+import ArticlePic from "../../assets/Doc-article.svg";
 
 export const BlogCard = (props) => {
   let nameArticle = props.articles.name;
@@ -25,7 +26,8 @@ export const BlogCard = (props) => {
           />
           <Button
             label="Read article"
-            imageSrc="src/assets/LiveDemoHover.svg"
+            imageSrc={ArticlePic}
+            // hoverImageSrc={ArticlePic}
             path={linkArticle}
             className="button-article"
             imgClass="img-button"

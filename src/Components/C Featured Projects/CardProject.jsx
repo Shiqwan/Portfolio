@@ -29,14 +29,16 @@ export const CardProject = (props) => {
           <Button
             label="Live Demo"
             path={netlifyProject}
-            imageSrc="/assets/LiveDemo.svg"
+            imageSrc="../src/assets/LiveDemo.svg"
+            hoverImageSrc="../src/assets/LiveDemoHover.svg"
             className="netlify-button"
             imgClass="img-button"
           />
           <Button
             label="View Code"
             path={githubProject}
-            imageSrc="/assets/GitHub.svg"
+            imageSrc="../src/assets/GitHub.svg"
+            hoverImageSrc="../src/assets/GitHubHover.svg"
             className="gitHub-button"
             imgClass="img-button-github"
           />
