@@ -9,7 +9,7 @@ import { Contact } from "./Components/F Contact Info/Contact";
 
 export const App = () => {
   return (
-    <div className="topper">
+    <div className="Top-Section">
       <Top />
       <div className="techer">
         <Tech />

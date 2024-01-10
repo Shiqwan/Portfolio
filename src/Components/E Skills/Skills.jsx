@@ -3,7 +3,7 @@ import "./Skills.css";
 
 export const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills-wrapper">
       <CardProjectHeading className="skills-heading" text="Skills" />
       <div className="description-skills">
         <div className="skills-words">
@@ -12,12 +12,11 @@ export const Skills = () => {
           <li>CSS</li>
           <li>javascript ES6</li>
           <li>React</li>
-
-          <ul>
-            <h4 className="more">More</h4>
-            <li>Stuff from my past</li>
-            <li>Agile methodology</li>
-          </ul>
+          <h4>Upcoming</h4>
+          <h4>Toolbox</h4>
+          <h4>More</h4>
+          <li>Stuff from my past</li>
+          <li>Agile methodology</li>
         </div>
       </div>
     </div>

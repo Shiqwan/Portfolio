@@ -1,4 +1,10 @@
 :root {
-  font-family: "Montserrat", serif;
-  background-color: rgb(227, 255, 227);
+  font-family: "Hind";
+  background-color: orange;
+  /* background-color: rgb(227, 255, 227); */
+}
+
+body,
+p {
+  margin: 0;
 }

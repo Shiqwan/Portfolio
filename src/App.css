@@ -1,4 +1,12 @@
+@font-face {
+  font-family: "Hind";
+  src: url(/src/Font/Hind-Regular.ttf);
+}
+
 body {
-  background-color: rgb(227, 255, 227);
-  font-family: "Montserrat", serif;
+  /* background-color: rgb(227, 255, 227); */
+  background-color: greenyellow;
+  font-family: "Hind";
+  width: 1512px;
+  height: auto;
 }

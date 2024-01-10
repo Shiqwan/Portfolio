@@ -1,7 +1,18 @@
 .skills {
-  padding: 25px 25px;
+  display: inline-flex;
+  padding: 128px 346px 124px 346px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.skills-words {
+  /* padding: 25px 25px;
   background-color: rgb(227, 255, 227);
   color: rgb(70, 127, 70);
+  width: 100%; */
 }
 
 .skills-heading {
@@ -13,23 +24,20 @@
 
 .description-skills {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  list-style-type: none;
-}
-
-.description-skills ul {
-  display: inline;
-  list-style-type: none;
+  align-items: flex-start;
+  gap: 64px;
 }
 
 .skills h4 {
-  padding: 1px 2px;
-  color: rgb(70, 127, 70);
-  font-size: large;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-@media (min-width: 667px) and (max-width: 1024px) {
+/* @media (min-width: 667px) and (max-width: 1024px) {
   .description-skills {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -38,5 +46,5 @@
 @media (min-width: 1025px) {
   .description-skills {
     grid-template-columns: repeat(4, 1fr);
-  }
+  } */
 }
