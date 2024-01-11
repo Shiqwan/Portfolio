@@ -7,6 +7,13 @@ body {
   /* background-color: rgb(227, 255, 227); */
   background-color: greenyellow;
   font-family: "Hind";
-  width: 1512px;
+  width: auto;
   height: auto;
 }
+
+/* @media (max-width: 1280px) {
+  body {
+    width: 1280px;
+    height: auto;
+  } */
+/* } */

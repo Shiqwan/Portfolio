@@ -1,10 +1,11 @@
 .articleCard-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  margin-bottom: 5px;
-  color: rgb(227, 255, 227);
+  display: grid;
+  flex-direction: 1fr;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .article-image {
@@ -17,23 +18,26 @@
 }
 
 .img-wrapper {
-overflow: hidden;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  border-bottom: 10px solid blue;
+  border-left: 10px solid blue;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .timeArticle {
-  background-color: #000;
-  color: rgb(227, 255, 227);
-  display: inline;
-  padding: 0.25rem 0.25rem;
-  font-family: Montserrat;
-  font-weight: 600;
   text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #000;
 }
 .article-description {
-  margin-top: 1rem;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #000;
 }
 .article-heading {
   font-size: 1.5rem;
@@ -46,9 +50,9 @@ justify-content: center;
 
 .article-paragraph {
   text-align: left;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #000;
 }
 
 .button-article {
@@ -66,7 +70,7 @@ justify-content: center;
   background-color: #FFD338;
   color: #000;
 }
-
+/* 
 @media (min-width: 667px) and (max-width: 1024px) {
 
   .articleCard-wrapper {
@@ -114,4 +118,4 @@ justify-content: center;
     text-align: left;
     font-size: 1rem;
   }
-}
+} */
