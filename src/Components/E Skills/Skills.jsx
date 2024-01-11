@@ -1,4 +1,4 @@
-import "./skills.css";
+import "./Skills.css";
 import { MainHead } from "../Header/MainHead";
 import { SkillsList } from "./Skills2";
 
