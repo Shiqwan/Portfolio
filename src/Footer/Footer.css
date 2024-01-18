@@ -31,7 +31,6 @@
 .scroll-text-wrapper {
   position: relative;
   width: 100%;
-  padding-right: 600px;
   height: 114px;
   overflow: hidden;
   background: #156b7d;
@@ -51,10 +50,10 @@
 
 @keyframes scroll-text {
   0% {
-    transform: translateX(100%);
+    transform: translateX(75%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-75%);
   }
 }
 

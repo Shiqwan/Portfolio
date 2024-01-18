@@ -2,7 +2,9 @@ import Photo from "./Photo";
 import Button from "./Button";
 import "../C Featured Projects/CardProject.css";
 import liveDemoIcon from "/src/assets/LiveDemo.svg";
-import githubIcon from "/src/assets/LiveDemoHover.svg";
+import liveDemoIconHover from "/src/assets/LiveDemoHover.svg";
+import githubIcon from "/src/assets/Github.svg";
+import githubIconHover from "/src/assets/GithubHover.svg";
 
 export const Projectcard = ({
   name,
@@ -32,12 +34,14 @@ export const Projectcard = ({
           <Button
             style="btn-live"
             icon={liveDemoIcon}
+            hoverIcon={liveDemoIconHover}
             name="Live demo"
             link={liveLink}
           />
           <Button
             style="btn-github"
             icon={githubIcon}
+            hoverIcon={githubIconHover}
             name="View the code"
             link={githubLink}
           />

@@ -9,13 +9,7 @@ export const Footer = () => {
   return (
     <div className="scroll-text-wrapper">
       <div className="scroll-text">
-        Ulrika Gålnander · Frontend Developer · Ulrika Gålnander · Frontend
-        Developer · Ulrika Gålnander · Frontend Developer · Ulrika Gålnander ·
-        Frontend Developer · Ulrika Gålnander · Frontend Developer · Ulrika
-        Gålnander · Frontend Developer · Ulrika Gålnander · Frontend Developer ·
-        Ulrika Gålnander · Frontend Developer · Ulrika Gålnander · Frontend
-        Developer · Ulrika Gålnander · Frontend Developer ·Ulrika Gålnander ·
-        Frontend Developer ·
+        {"Ulrika Gålnander · Frontend Developer · ".repeat(10)}
       </div>
     </div>
     // </section>

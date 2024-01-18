@@ -11,6 +11,7 @@
 
 .project-container {
   display: flex;
+  width: 50%;
   margin-bottom: 50px;
 }
 
@@ -65,7 +66,6 @@
 .btn-live a,
 .btn-github a {
   text-decoration: none;
-  margin-left: 1em;
 }
 
 .project-content {
@@ -103,8 +103,7 @@
     .btn-live,
     .btn-github {
       display: flex;
-      padding-left: 1em;
-      width: 13em;
+      width: 10em;
       font-size: 1em;
       justify-content: flex-start;
     }
