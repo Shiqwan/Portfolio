@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id": "1",
       "name": "Happy Thoughts",
       "image": "https://images.unsplash.com/photo-1509909756405-be0199881695?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "A simple version of Twitter, but for simply your Happy Thoughts",
@@ -9,6 +10,7 @@
       "github": "https://github.com/Shiqwan/project-happy-thoughts-vite"
     },
     {
+      "id": "2",
       "name": "Music Releases",
       "image": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "A layout of recent music releases from Spotify (at the time)",
@@ -17,6 +19,7 @@
       "github": "https://github.com/Shiqwan/project-music-releases-vite"
     },
     {
+      "id": "3",
       "name": "Christmas Quiz",
       "image": "https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "What kind of Christmas person are you?? A fun lil' survey.",
@@ -25,6 +28,7 @@
       "github": "https://github.com/Shiqwan/project-survey-vite"
     },
     {
+      "id": "4",
       "name": "Weather App",
       "image": "https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "An app fetching the weather",
@@ -33,6 +37,7 @@
       "github": "https://github.com/Shiqwan/project-weather-app"
     },
     {
+      "id": "5",
       "name": "Guess Who?",
       "image": "https://images.pexels.com/photos/5941331/pexels-photo-5941331.jpeg",
       "description": "Classic old game!",
@@ -41,6 +46,7 @@
       "github": "https://github.com/Shiqwan/project-guess-who"
     },
     {
+      "id": "6",
       "name": "Simple Chatbot",
       "image": "https://images.pexels.com/photos/4350099/pexels-photo-4350099.jpeg",
       "description": "A basic chatbot, helping you decide on whether to get an Apple or Pear-tree!",

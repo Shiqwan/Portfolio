@@ -54,6 +54,7 @@
 @media only screen and (max-width: 1279px) and (min-width: 744px) {
   .skills {
     padding: 256px 64px;
+    width: 100%;
   }
 
   .skills p.large {

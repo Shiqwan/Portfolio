@@ -1,17 +1,14 @@
-import { CardProjectHeading } from "./Repeat Components/CardProjectHeading";
-import { CardProject } from "./CardProject";
-import projectData from "../projects.json";
+import Headlines from "../C Featured Projects/Repeat Components/Headlines";
+import ProjectList from "../C Featured Projects/ProjectList";
 import "./Projects.css";
-
-let projectsArray = projectData.projects;
 
 export const Projects = () => {
   return (
-    <div className="project-container">
-      <CardProjectHeading className={"projects-main-head"} text={"Projects"} />
-      {projectsArray.map((project, index) => (
-        <CardProject key={index} projects={project} />
-      ))}
+    <div className="projects-wrapper">
+      <Headlines title="Featured Projects" />
+      <ProjectList />
     </div>
   );
 };
+
+export default Projects;

@@ -1,49 +1,50 @@
-import { CardProjectHeading } from "../C Featured Projects/Repeat Components/CardProjectHeading";
-import { Description } from "../C Featured Projects/Repeat Components/Description";
-import { Button } from "../C Featured Projects/Repeat Components/Button";
-import "./CardProject.css";
+import Photo from "./Photo";
+import Button from "./Button";
+import "../C Featured Projects/CardProject.css";
+import liveDemoIcon from "/src/assets/LiveDemo.svg";
+import githubIcon from "/src/assets/LiveDemoHover.svg";
 
-export const CardProject = (props) => {
-  let imgProject = props.projects.image;
-  let nameProject = props.projects.name;
-  let descriptionProject = props.projects.description;
-  let netlifyProject = props.projects.netlify;
-  let githubProject = props.projects.github;
-
+export const Projectcard = ({
+  name,
+  photo,
+  tags,
+  liveLink,
+  description,
+  githubLink,
+}) => {
   return (
-    <>
-      <div className="CardProjectWrapper">
-        <div className="img-wrapper">
-          <img src={imgProject} alt={nameProject} className="project-img" />
+    <div className="project-container">
+      <Photo source={photo} color="blue" size="square" />
+      <div className="project-content">
+        <h2>{name}</h2>
+        <p className="description">{description}</p>
+        <div className="tag-container">
+          {tags.map((tag) => {
+            return (
+              <p key={tag} className="tag">
+                {tag}
+              </p>
+            );
+          })}
         </div>
-        <div className="details-wrapper">
-          <div className="info-wrapper">
-            <CardProjectHeading className="project-head" text={nameProject} />
-            <Description
-              className="project-paragraph"
-              text={descriptionProject}
-            />
-          </div>
-        </div>
-        <div className="button-wrap">
+
+        <div className="btn-container">
           <Button
-            label="Live Demo"
-            path={netlifyProject}
-            imageSrc="../src/assets/LiveDemo.svg"
-            hoverImageSrc="../src/assets/LiveDemoHover.svg"
-            className="netlify-button"
-            imgClass="img-button"
+            style="btn-live"
+            icon={liveDemoIcon}
+            name="Live demo"
+            link={liveLink}
           />
           <Button
-            label="View Code"
-            path={githubProject}
-            imageSrc="../src/assets/GitHub.svg"
-            hoverImageSrc="../src/assets/GitHubHover.svg"
-            className="gitHub-button"
-            imgClass="img-button-github"
+            style="btn-github"
+            icon={githubIcon}
+            name="View the code"
+            link={githubLink}
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
+
+export default Projectcard;

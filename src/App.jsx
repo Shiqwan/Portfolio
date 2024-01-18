@@ -6,6 +6,7 @@ import { Projects } from "./Components/C Featured Projects/Projects";
 // import { Blog } from "./Components/D My Blogs/Blog";
 import { Skills } from "./Components/E Skills/Skills";
 import { Contact } from "./Components/F Contact Info/Contact";
+import { Footer } from "./Footer/Footer";
 
 export const App = () => {
   return (
@@ -13,18 +14,19 @@ export const App = () => {
       <Top />
       <div className="techer">
         <Tech />
-        <div className="projects">
-          <Projects />
-        </div>
-        {/* <div className="blogs">
+      </div>
+      <Projects className="projects" />
+      {/* <div className="blogs">
           <Blog />
         </div> */}
-        <div className="skills">
-          <Skills />
-        </div>
-        <div className="contact">
-          <Contact />
-        </div>
+      <div className="skills">
+        <Skills />
+      </div>
+      <div className="contact">
+        <Contact />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
