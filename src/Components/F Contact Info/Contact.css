@@ -14,3 +14,52 @@
 .contact-container {
   padding-bottom: 2em;
 }
+
+.contact-wrapper {
+}
+
+/* Mobile */
+@media (min-width: 375px) and (max-width: 744px) {
+  .contact {
+    display: inline-flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  .contact-top-image {
+    display: inline-flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+  }
+
+  .contact-headline {
+    font-size: 45px;
+  }
+  .contact-container {
+    padding-bottom: 2em;
+  }
+}
+
+/* Tablet */
+@media (min-width: 745px) and (max-width: 1280px) {
+  .contact {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-container {
+    padding-bottom: 2em;
+  }
+}

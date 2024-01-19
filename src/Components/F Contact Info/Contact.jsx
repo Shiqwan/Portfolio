@@ -9,7 +9,6 @@ export const Contact = () => {
       <div className="contact-wrapper">
         <div className="contact-top-image">
           <MainHead className={"contact-headline"} text={"Happy to chat!"} />
-
           <ProfilePic />
           <SecondHead classname={"Name"} text={"Ulrika Gålnander"} />
           <div className="contact-info">
