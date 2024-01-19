@@ -1,8 +1,9 @@
 .square {
-  border-bottom: 20px solid #0b24f5;
-  border-left: 20px solid #0b24f5;
+  border-bottom: 20px solid #156b7d;
+  border-left: 20px solid #156b7d;
   width: 18em;
   height: 18em;
+  object-fit: cover;
 }
 .repo-name {
   font-size: 12px;

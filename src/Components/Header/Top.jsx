@@ -3,6 +3,8 @@ import "./Top.css";
 import { ProfilePic } from "../ProfilePic/ProfilePic";
 import { MainHead } from "./MainHead";
 import { SecondHead } from "./SecondHead";
+import Arrow from "../../assets/arrow.svg";
+import "animate.css";
 
 export const Top = () => {
   return (
@@ -24,15 +26,20 @@ export const Top = () => {
               Ulrika is a developer ready for new things and hungry to learn.
             </p>
             <p>
-              With a background in communications, administration and idk being
-              a woman she is taking a new step in her career.
+              With a background in communications, administration and events she
+              is taking a new step in her career.
             </p>
-            <p>
+            {/* <p>
               The last few months have proven her to be resilient, a baby and
               giving her a lot of revelations on what the heck she is about.
-            </p>
+            </p> */}
           </div>
         </div>
+        <a>
+          <div className="arrow">
+            <img src={Arrow} alt="Arrow" className="arrow-image" />
+          </div>
+        </a>
       </div>
     </div>
   );

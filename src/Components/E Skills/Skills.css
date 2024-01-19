@@ -11,9 +11,7 @@
 
 .skills ul {
   list-style: none;
-  /* Remove bullet points */
   padding: 0;
-  /* Remove any default padding so that the listitems position correctly */
 }
 
 .code,
@@ -42,13 +40,11 @@
   color: var(--primary);
 }
 
-/* ------------ TYPOGRAPHY ------------ */
 .skills p.large {
   text-align: left;
 }
 
-/* ------------ MEDIA QUERIES ------------
-/* ------------ Tablet only ------------ */
+/* ------------ Tablet  ------------ */
 @media only screen and (max-width: 1279px) and (min-width: 744px) {
   .skills {
     padding: 256px 64px;
@@ -67,7 +63,7 @@
   }
 }
 
-/* ------------ Desktop only ------------ */
+/* ------------ Desktop------------ */
 @media only screen and (min-width: 1280px) {
   .skills {
     display: flex;
